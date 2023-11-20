@@ -1,7 +1,7 @@
 <?php
 $active = 2;
 include("../middleware/auth_header.php");
-// $user_id = $_SESSION["user_id"];
+$user_id = $_SESSION["user_id"];
 html($active);
 
 ?>
